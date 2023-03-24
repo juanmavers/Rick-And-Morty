@@ -1,0 +1,94 @@
+.body {
+  display: flex;
+  direction: row;
+}
+
+.h2 {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 25px;
+  padding-top: 10px;
+  margin: 10px;
+  font-family: Century Gothic, sans-serif;
+  text-align: right;
+}
+
+.container {
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  margin: 40px auto;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.container:hover {
+  transform: scale(1.13);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+  transition: all ease 1300ms;
+}
+
+.container__image {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+
+.closeButton {
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c2fbd7;
+  border-radius: 50%;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+  margin-top: 5px;
+}
+
+.favButton {
+  position: absolute; 
+  bottom: 10px;
+  left: 10px;
+  background-color: #c2fbd7;
+  border-radius: 50%;
+  box-shadow: rgba(244, 57, 169, 0.2) 0 -25px 18px -14px inset, rgba(255, 155, 213, 0.827) 0 1px 2px, rgba(240, 4, 217, 0.73) 0 2px 4px, rgba(236, 102, 240, 0.919) 0 4px 8px, rgba(231, 42, 42, 0.93) 0 8px 16px, rgba(156, 64, 189, 0.839) 0 16px 32px;
+  color: rgb(172, 53, 53);
+  cursor: pointer;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+  margin-top: 15px;
+}
+
+.closeButton:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.35) rotate(-10deg);
+}
+
+.favButton:hover {
+  box-shadow: rgba(187, 44, 173, 0.35) 0 -25px 18px -14px inset, rgba(255, 30, 176, 0.25) 0 1px 2px, rgba(255, 15, 171, 0.867) 0 2px 4px, rgba(255, 60, 223, 0.879) 0 4px 8px, rgba(242, 57, 57, 0.816) 0 8px 16px, rgb(255, 38, 71) 0 16px 32px;
+  transform: scale(1.35) rotate(10deg);
+}
