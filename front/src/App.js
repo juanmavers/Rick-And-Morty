@@ -36,7 +36,7 @@ function App() {
       return alert("Personaje repetido");
     }
 
-    fetch(`${URL_BASE}/character/${id}`)
+    fetch(`${URL_BASE}/onsearch/${id}`)
       .then((response) => {
         return response.json()
       })
