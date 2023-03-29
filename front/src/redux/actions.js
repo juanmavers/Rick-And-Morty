@@ -4,12 +4,16 @@ export const FILTER = "FILTER";
 export const ORDER = "ORDER";
 
 
-export const addFavorite = (character) => {
-    return {
-        type: ADD_FAVORITE,
-        payload: character
-    }
-}
+// export const addFavorite = (character) => {
+//     return function (dispatch) {
+
+//     }
+    
+//     // return {
+//     //     type: ADD_FAVORITE,
+//     //     payload: character
+//     // }
+// }
 
 export const removeFavorite = (id) => {
     return {

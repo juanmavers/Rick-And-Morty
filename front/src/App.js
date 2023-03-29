@@ -29,7 +29,7 @@ function App() {
 
   //! EVENT HANDLERS
   const onSearch = (id) => {
-    const URL_BASE = "http://localhost:3001/rickandmorty";
+    const URL_BASE = "http://localhost:3001";
     // const KEY = "fa1b8a45821e.79b09a5a787ffc1274e3";
 
     if (characters.find((char) => char.id === id)) {
