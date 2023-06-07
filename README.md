@@ -13,4 +13,4 @@
 
 <span></span>
 
-<h4>App is located on branch "develop"</h4>
+<h2>App is located on branch "develop"</h2>
