@@ -1,4 +1,4 @@
-🚀<h1>🚀Rick-And-Morty🚀</h1>🚀
+<h1>🚀Rick And Morty🚀</h1>
  
  <span></span>
 
@@ -10,4 +10,7 @@
 <span></span>
 
 <h3>La app se encuentra en la branch "develop"</h3>
-<h3>App is located on branch "develop"</h3>
+
+<span></span>
+
+<h4>App is located on branch "develop"</h4>
